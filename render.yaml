@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: bot-telegram-python # Cambia el nombre si lo deseas
+    name: bot_telegram # Cambia el nombre si lo deseas
     env: python
     region: oregon # Elige la región que prefieras
     buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
+    startCommand: python bot.py
     routes:
       - path: /
         target: /
