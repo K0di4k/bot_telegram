@@ -2,7 +2,7 @@ services:
   - type: web
     name: bot_telegram # Puedes cambiar el nombre si lo deseas
     env: php
-    region: Oregon (US West) # Elige la región que prefieras
+    region: Oregon # Elige la región que prefieras
     buildCommand: ""
     startCommand: php -S 0.0.0.0:$PORT -t .
     routes:
