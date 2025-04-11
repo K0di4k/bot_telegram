@@ -10,7 +10,7 @@ from urllib.parse import urlparse, parse_qs
 
 TOKEN = os.environ.get('BOT_TOKEN')
 TELEGRAM_API_URL = f'https://api.telegram.org/bot{TOKEN}/'
-PORT = int(os.environ.get('PORT', 8080))
+PORT = int(os.environ.get('PORT', 8082))
 
 # ----------------------------------------------------------------------------
 # Función para enviar el mensaje de respuesta a Telegram
